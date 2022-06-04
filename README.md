@@ -12,7 +12,7 @@ Use `./main.out ./instances/instance-name.tsp`
 The table below shows the average cost and time (in seconds) of each instance
 after running this code 10 times in an i7-7700HQ
 
-The best known solutions of each instance area available at [https://elib.zib.de/pub/mp-testdata/tsp/tsplib/stsp-sol.html](https://elib.zib.de/pub/mp-testdata/tsp/tsplib/stsp-sol.html)
+The best known solutions of each instance are available at [https://elib.zib.de/pub/mp-testdata/tsp/tsplib/stsp-sol.html](https://elib.zib.de/pub/mp-testdata/tsp/tsplib/stsp-sol.html)
 
 | Instance | Avg. Time | Avg. Cost | Instance | Avg. Time | Avg. Cost |
 --- | --- | ---| --- | --- | ---|
