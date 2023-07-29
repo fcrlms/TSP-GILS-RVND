@@ -2,8 +2,8 @@
 #include <vector> // swap()
 #include <cmath> // ceil()
 
-#include "localSearch.hpp"
-#include "solution.hpp"
+#include "localSearch.h"
+#include "solution.h"
 
 #define NL_SIZE 5
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "solution.hpp"
+#include "solution.h"
 
 void printSolution (Solution *s) {
 	int sequenceSize = s->sequence.size();

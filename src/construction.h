@@ -1,7 +1,7 @@
 #ifndef CONSTRUCTION_H
 #define CONSTRUCTION_H
 
-#include "solution.hpp"
+#include "solution.h"
 
 Solution construction (double **matrixAdj, int dimension);
 

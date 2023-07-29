@@ -1,7 +1,7 @@
 #ifndef PERTURB_H
 #define PERTURB_H
 
-#include "solution.hpp"
+#include "solution.h"
 
 Solution perturb (double **m, Solution *best);
 

@@ -2,8 +2,8 @@
 #include <vector>
 #include <cmath> // ceil()
 
-#include "perturb.hpp"
-#include "solution.hpp"
+#include "perturb.h"
+#include "solution.h"
 
 int randomNumber(int lowerLimit, int upperLimit)
 {

@@ -3,8 +3,8 @@
 #include <algorithm> // sort()
 #include <cmath> // ceil()
 
-#include "construction.hpp"
-#include "solution.hpp"
+#include "construction.h"
+#include "solution.h"
 
 // Possible values of alpha
 double alphaValues[25] = {

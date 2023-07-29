@@ -1,10 +1,10 @@
 #include <cmath> // INFINITY
 
-#include "ILS.hpp"
-#include "construction.hpp"
-#include "localSearch.hpp"
-#include "perturb.hpp"
-#include "solution.hpp"
+#include "ILS.h"
+#include "construction.h"
+#include "localSearch.h"
+#include "perturb.h"
+#include "solution.h"
 
 /**
  * Iterated Local Search

@@ -1,14 +1,17 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -Wextra -Werror -pedantic -O3
+CXXFLAGS = -std=c++17 -Wall -Wextra -Werror -pedantic -O3 -m64 -fPIC
 
-SOURCES = $(wildcard *.cpp)
-
-OBJECTS = $(SOURCES: %.cpp = %.o)
+SOURCES = $(wildcard src/*.cc)
+OBJECTS = $(patsubst src/%.cc, obj/%.o, $(SOURCES))
+HEADERS = $(wildcard src/*.h)
 
 EXECUTABLE = main.out
 
-$(EXECUTABLE): $(OBJECTS)
+$(EXECUTABLE): $(OBJECTS) $(HEADERS)
 	$(CXX) $(CXXFLAGS) $(OBJECTS) -o $(EXECUTABLE)
 
-%.o:
-	$(CXX) $(CXXFLAGS) -c $*.cpp
+$(OBJECTS): obj/%.o : src/%.cc | obj
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+obj:
+	mkdir -p $@

@@ -1,7 +1,7 @@
 #ifndef LOCAL_SEARCH_H
 #define LOCAL_SEARCH_H
 
-#include "solution.hpp"
+#include "solution.h"
 
 void localSearch (double **matrixAdj, Solution *s);
 

@@ -3,9 +3,9 @@
 #include <ctime> // time()
 #include <chrono> // measuring time
 
-#include "readData.hpp"
-#include "ILS.hpp"
-#include "solution.hpp"
+#include "readData.h"
+#include "ILS.h"
+#include "solution.h"
 
 #define TESTS_TO_RUN 10
 
